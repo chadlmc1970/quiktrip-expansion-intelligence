@@ -2,6 +2,7 @@ services:
   - type: web
     name: quiktrip-expansion-api
     runtime: python
+    pythonVersion: 3.11.9
     region: oregon
     plan: free
     branch: main
